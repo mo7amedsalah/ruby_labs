@@ -5,7 +5,7 @@ def fun()
     puts "plz enter second_number: "
     num2= gets.chomp.to_i
 
-    if num1 == 6 || num2==6 || ( num1+num2 == 6 || ((num1-num2).abs == 6).abs )
+    if num1 == 6 || num2==6 || ( num1+num2 == 6 || ((num1-num2).abs == 6) )
         return true
     else
         return false
